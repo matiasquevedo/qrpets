@@ -1,13 +1,18 @@
-.head{
-	background-image: url('/assets/img/fondo.jpg');
-	background-size: cover;
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	position: relative;
-	min-height: 600px;
-	line-height: 600px;
-	text-align: center;
+.home{
+	  background-image: url("/assets/portada.jpg");
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom; 
+}
 
+.home-header {
+  height: 260px;
+  background-color: white;
+}
+
+.medalla:hover{
+	transform: rotate(20deg);
 }
 
 .base{

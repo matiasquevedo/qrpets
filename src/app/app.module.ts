@@ -27,8 +27,6 @@ import { ProductsComponent } from './components/products/products.component';
 import { ProductComponent } from './components/products/product/product.component';
 import { ProductListComponent } from './components/products/product-list/product-list.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { SearchCarComponent } from './search-car/search-car.component';
-import { CarDetailsComponent } from './car-details/car-details.component';
 
 
 
@@ -39,9 +37,7 @@ import { CarDetailsComponent } from './car-details/car-details.component';
     ProductsComponent,
     ProductComponent,
     ProductListComponent,
-    InicioComponent,
-    SearchCarComponent,
-    CarDetailsComponent
+    InicioComponent
 
   ],
   imports: [
