@@ -7,7 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MyNavComponent } from './my-nav/my-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule, MatFormFieldModule, MatOption, MatOptionModule, MatSelectModule, MatInputModule, MatDatepicker, MatDatepickerModule, MatNativeDateModule } from '@angular/material';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 
@@ -27,8 +27,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { ProductComponent } from './components/products/product/product.component';
 import { ProductListComponent } from './components/products/product-list/product-list.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { SearchCarComponent } from './search-car/search-car.component';
-import { CarDetailsComponent } from './car-details/car-details.component';
+import { CartishaComponent } from './components/cartisha/cartisha.component';
 
 
 
@@ -40,8 +39,7 @@ import { CarDetailsComponent } from './car-details/car-details.component';
     ProductComponent,
     ProductListComponent,
     InicioComponent,
-    SearchCarComponent,
-    CarDetailsComponent
+    CartishaComponent
 
   ],
   imports: [
@@ -51,8 +49,14 @@ import { CarDetailsComponent } from './car-details/car-details.component';
     BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,
+    MatFormFieldModule,
+    MatOptionModule,
+    MatSelectModule,
     MatButtonModule,
     MatSidenavModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     MatIconModule,
     MatListModule,
     MatGridListModule,
@@ -68,7 +72,8 @@ import { CarDetailsComponent } from './car-details/car-details.component';
   ],
   providers: [
     HeroService,
-    ProductsService
+    ProductsService,
+    MatDatepickerModule,
   ],
   bootstrap: [AppComponent]
 })
