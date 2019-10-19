@@ -1,0 +1,60 @@
+{
+  "app":"Bienestar",
+  "home" : {
+    "texto": "Bem-vindo ao Bienestar, a melhor plataforma para pacientes e profissionais de saúde para uma melhor inter-relação deles.",
+    "profesional":"Profissional",
+    "paciente":"Paciente",
+    "soy":"Eu sou"
+  },
+  "presentacion":{
+    "titulo":"Sua casa com boa saúde e moderação",
+    "texto":"Chegou a app que vai mudar a sua vida, aquela que irá acompanhá-lo em todo o lado e onde poderá ter todas as suas informações clínicas ao alcance dos seus dedos"
+  },
+  "info":{
+    "titulo":"Informação médica atualizada",
+    "texto":"Profissionais e centros de saúde irão completar seu histórico médico, você também pode anotar o que você considera relevante"
+  },
+  "medicos":{
+    "titulo":"Médicos, Farmácias e Centros de Saúde perto de você",
+    "texto": "Pesquise em nosso extenso diretório de profissionais de saúde, farmácias e centros de saúde que você precisa."
+  },
+  "contacto":{
+    "titulo":"Comunicar quando e onde quiser",
+    "texto":"Para tirar dúvidas, comunique-se com seu médico, recebi conselhos, mensagens instantâneas e todas as informações sobre suas análises ou estudos."
+  },
+  "emergencia":{
+    "titulo":"Informações de emergência",
+    "texto":"Atualize e ordene as informações que você deseja ver no momento de uma emergência, gere seu código QR para ficar visível"
+  },
+  "nosotros":{
+    "titulo":"Sobre o Bienestar",
+    "texto":"Somos uma equipe de profissionais médicos e entusiastas da tecnologia que buscam facilitar a conexão entre médico e paciente de maneira rápida e simples. A nova plataforma de bem-estar facilitará a troca de informações entre instituições de saúde e seus usuários. Seu design inteligente e intuitivo irá acompanhá-lo em todos os momentos da sua vida. Porque queremos estar bem, criamos Bienestar.",
+    "final":"Porque queremos estar bem, escolhemos Bienestar, sumate."
+  },
+  "pageContacto":{
+    "titulo":"Contact us",
+    "texto":"Se você tiver alguma dúvida ou precisar de mais informações, nossa equipe de profissionais está aqui para ajudá-lo",
+    "texto2":"Para questões gerais, disque 0-800-999-6462 ou preencha o formulário de contato:",
+    "nombre":"Nome",
+    "telefono":"Telefone",
+    "preguntas":"Perguntas"
+  },
+  "nav":{
+  	"inicio":"Incio",
+  	"turnos":"Turnos",
+  	"instituciones":"Instituições",
+  	"contacto":"Contato",
+  	"nosotros":"Nós",
+  	"iniciarSesion":"Login",
+  	"registrar":"Registrar"
+  },
+  "turno":{
+    "titulo":"Gestão de turnos",
+    "btn":"Novo Turno"
+  },
+  "enviar":"Enviar",
+  "idioma":"Idioma",
+  "español":"Espanhol",
+  "ingles":"Inglês",
+  "portugues":"Portugues"
+}

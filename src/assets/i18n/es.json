@@ -1,0 +1,60 @@
+{
+  "app":"Bienestar",
+  "home" : {
+    "texto": "Bienvenidos a Bienestar, la mejor plataforma destinada a pacientes y profesionales de la salud para una mejor interrelación de los mismos.",
+    "profesional":"Profesional",
+    "paciente":"Paciente",
+    "soy":"Soy"
+  },
+  "presentacion":{
+    "titulo":"Tú hogar con buena salud y contención",
+    "texto":"Llegó la app. que va cambiar tu vida, la que te va a acompañar a todos lados y donde vas a poder tener toda tu infomación clinica al alcance de tus manos"
+  },
+  "info":{
+    "titulo":"Información médica actualizada",
+    "texto":"Profesionales y centros de salud completarán tu historial médico, vos también podes anotar lo que consideres relevante"
+  },
+  "medicos":{
+    "titulo":"Médicos, Farmacias y Centros de salud cerca tuyos ",
+    "texto":"Buscá en nuestro amplio directorio a profesionales de la salud, farmacias y centros de salud que necesites."
+  },
+  "contacto":{
+    "titulo":"Comunicate cuándo y dónde quieras",
+    "texto":"Para sacar tus dudas, comunicate con tu profesional médico, recibí consejos, mensajes instantáneos y toda la información sobre tus analisis u estudios."
+  },
+  "emergencia":{
+    "titulo":"Información de Emergencia",
+    "texto":"Actualizá y ordená la información que quieras que se vea en el momento de una emergencia, generá tu código QR para que sea visible"
+  },
+  "nosotros":{
+    "titulo":"Sobre Bienestar",
+    "texto":"Somos un equipo de medicos profesionales y aficionados a la tecnologia que buscamos faciliar la conexion entre medico-paciente de una manera rápida y sencilla. La nueva plataforma de Wellness va a faciliar el intercambio de información entre las instituciones de salud y sus ususarios. Su diseño inteligente e intuitivo va a acompañarte en cada momento de tu vida. Porque queremos estar bien, creamos Bienestar.",
+    "final":"Porque queremos estar bien, elegimos Bienestar, sumate."
+  },
+  "pageContacto":{
+    "titulo":"Contáctanos",
+    "texto":"Si tienes alguna pregunta o necesitas más información, nuestro equipo de profesionales está aqui para ayudarte",
+    "texto2":"Para preguntas generales, disca 0-800-999-6462, o completa el formulario de contacto:",
+    "nombre":"Nombre",
+    "telefono":"Teléfono",
+    "preguntas":"Preguntas"
+  },
+  "nav":{
+  	"inicio":"Incio",
+  	"turnos":"Turnos",
+  	"instituciones":"Instituciones",
+  	"contacto":"Contacto",
+  	"nosotros":"Nosotros",
+  	"iniciarSesion":"Iniciar Sesión",
+  	"registrar":"Registrarse"
+  },
+  "turno":{
+    "titulo":"Gestión de Turnos",
+    "btn":"Nuevo Turno"
+  },
+  "enviar":"Enviar",
+  "idioma":"Idioma",
+  "español":"Español",
+  "ingles":"Ingles",
+  "portugues":"Portugués"
+}

@@ -1,0 +1,138 @@
+<div class="mt container">
+	<div>
+		<h3>Nuevo Producto</h3>
+	</div>
+	<div>
+		<form #productForm ="ngForm" (ngSubmit)="onSubmit(productForm)">
+			<input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="productService.selectedProduct.$key">
+			<div class="form-group">
+				<input 
+				type="text"
+				class="form-control"
+				name="title"
+				#title="ngModel"
+				[(ngModel)]="productService.selectedProduct.title" 
+				placeholder="Nombre del Producto">
+
+				<input 
+				type="text"
+				class="form-control"
+				name="description"
+				#description="ngModel"
+				[(ngModel)]="productService.selectedProduct.description" 
+				placeholder="description">
+
+				<input 
+				type="text"
+				class="form-control"
+				name="modelo"
+				#modelo="ngModel"
+				[(ngModel)]="productService.selectedProduct.modelo" 
+				placeholder="modelo">
+
+				<input 
+				type="text"
+				class="form-control"
+				name="km"
+				#km="ngModel"
+				[(ngModel)]="productService.selectedProduct.km" 
+				placeholder="km">
+
+				<input 
+				type="text"
+				class="form-control"
+				name="tipo"
+				#tipo="ngModel"
+				[(ngModel)]="productService.selectedProduct.tipo" 
+				placeholder="tipo">
+				
+				<input 
+				type="text"
+				class="form-control"
+				name="motor"
+				#motor="ngModel"
+				[(ngModel)]="productService.selectedProduct.motor" 
+				placeholder="motor">
+
+				<input 
+				type="text"
+				class="form-control"
+				name="potencia"
+				#potencia="ngModel"
+				[(ngModel)]="productService.selectedProduct.potencia" 
+				placeholder="potencia">
+
+				<input 
+				type="text"
+				class="form-control"
+				name="transmision"
+				#transmision="ngModel"
+				[(ngModel)]="productService.selectedProduct.transmision" 
+				placeholder="transmision">
+
+				<input 
+				type="text"
+				class="form-control"
+				name="combustible"
+				#combustible="ngModel"
+				[(ngModel)]="productService.selectedProduct.combustible" 
+				placeholder="combustible">
+				
+				
+				<input 
+				type="text"
+				class="form-control"
+				name="puertas"
+				#puertas="ngModel"
+				[(ngModel)]="productService.selectedProduct.puertas" 
+				placeholder="puertas">
+
+
+				<input 
+				type="text"
+				class="form-control"
+				name="price"
+				#price="ngModel"
+				[(ngModel)]="productService.selectedProduct.price" 
+				placeholder="Precio">
+
+				<input
+				name="url"
+				#img="ngModel"
+				[(ngModel)]="imageUrl" 
+				type="text"  value="{{imageUrl}}" style="display: none !important;">
+				<hr>
+				<input type="file" (change)="upload($event)" accept=".png, .jpg">
+
+				
+			</div>
+
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped success" rol="progressbar"
+					[style.width]="(uploadPercent | async) + '%'"
+				>
+					
+				</div>
+			</div>
+
+			<div class="form-group text-right">
+				<button *ngIf="imageUrl; else btnDisable"
+				class="btn btn-primary" #enviar type="submit" >
+					<i class="fas fa-plus-circle"></i>
+				</button>
+				<ng-template #btnDisable>
+					<button class="btn btn-secondary" disabled="true" #enviar type="submit" >
+						<i class="fas fa-plus-circle"></i>
+					</button>
+				</ng-template>
+				
+
+				<button class="btn btn-secondary" type="reset" (click)="resetForm(productForm)">
+					<i class="fas fa-sync-alt"></i>
+				</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+

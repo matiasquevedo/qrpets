@@ -1,0 +1,59 @@
+{
+  "app":"Bienestar",
+  "home" : {
+    "texto": "Welcome to Bienestar, the best platform for patients and health professionals for a better interrelation of them.",
+    "profesional":"Professional",
+    "paciente":"Patient",
+    "soy":"I am"
+  },
+  "presentacion":{
+    "titulo":"Your home in good health and containment",
+    "texto":"The app arrived. that will change your life, the one that will accompany you everywhere and where you will be able to have all your clinical information at your fingertips"
+  },
+  "info":{
+    "titulo":"Updated medical information",
+    "texto":"Professionals and health centers will complete your medical history, you can also write down what you consider relevant "
+  },
+  "medicos":{
+    "titulo":"Doctors, Pharmacies and Health Centers near you",
+    "texto":"Search our extensive directory of health professionals, pharmacies and health centers you need. "},
+  "contacto":{
+    "titulo":"Communicate when and where you want",
+    "texto":"To get your doubts, communicate with your medical professional, I received advice, instant messages and all the information about your analysis or studies. "
+  },
+  "emergencia":{
+    "titulo":"Emergency Information",
+    "texto":"Update and order the information you want to see at the time of an emergency, generate your QR code to be visible "
+  },
+  "nosotros":{
+    "titulo":"About Bienestar",
+    "texto":"We are a team of professional doctors and technology enthusiasts who seek to facilitate the connection between doctor and patient in a fast and simple way. The new Wellness platform will facilitate the exchange of information between health institutions and their users. Its intelligent and intuitive design will accompany you at every moment of your life. Because we want to be well, we create Bienestar.",
+    "final":"Because we want to be well, we choose Bienestar, sumate."
+    },
+  "pageContacto":{
+    "titulo":"Contact us",
+    "texto":"If you have any questions or need more information, our team of professionals is here to help you",
+    "texto2":"For general questions, dial 0-800-999-6462, or complete the contact form:",
+    "nombre":"First name",
+    "telefono":"Phone",
+    "preguntas":"Questions"
+  },
+  "nav":{
+  	"inicio":"Home",
+  	"turnos":"Turns",
+  	"instituciones":"Institutions",
+  	"contacto":"Contact",
+  	"nosotros":"About",
+  	"iniciarSesion":"Sing in",
+  	"registrar":"Sing up"
+  },
+  "turno":{
+    "titulo":"Turn Management",
+    "btn":"New Turn"
+  },
+  "enviar":"Send",
+  "idioma":"Language",
+  "español":"Spanish",
+  "ingles":"English",
+  "portugues":"Portuguese"
+}
