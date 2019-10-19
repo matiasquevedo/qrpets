@@ -1,5 +1,4 @@
 .barra{
-	
 
 background: #2b7974;
 
@@ -7,6 +6,15 @@ background: #2b7974;
 .barra > ul, li,  a {
 	color: white !important;
 }
+
+
+ .avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
 
 .dropdown .active{
 	background-color:  #08a7c4 !important;

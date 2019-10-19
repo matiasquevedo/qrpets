@@ -27,7 +27,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { ProductComponent } from './components/products/product/product.component';
 import { ProductListComponent } from './components/products/product-list/product-list.component';
 import { InicioComponent } from './inicio/inicio.component';
-
+import { ProfileComponent } from './profile/profile.component';
 
 
 @NgModule({
@@ -37,8 +37,8 @@ import { InicioComponent } from './inicio/inicio.component';
     ProductsComponent,
     ProductComponent,
     ProductListComponent,
-    InicioComponent
-
+    InicioComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
